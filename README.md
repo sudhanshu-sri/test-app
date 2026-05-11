@@ -4,6 +4,8 @@
 
 This repository currently contains a single packaged artifact, `test-app.zip`, rather than an expanded source tree. Because the archive is binary and the repository does not expose its internal files in text form, the app’s runtime purpose, framework, dependencies, and architecture cannot be reliably determined from the visible repository contents alone.
 
+This README has been updated to document the repository as it appears in the current Git snapshot and to guide maintainers toward publishing the extracted source when available.
+
 At the moment, this repo is best understood as a delivery container for a prebuilt or bundled application archive. If the ZIP is extracted locally, you should expect the actual application source, configuration, and run instructions to be found inside the archive itself.
 
 ## Features
